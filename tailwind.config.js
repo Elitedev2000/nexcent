@@ -327,6 +327,9 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      inter: [
+        '"Inter"'
+      ]
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
