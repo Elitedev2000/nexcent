@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,57 +10,87 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Inter Fonts CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
 
     <title>Nexcent</title>
-  </head>
+</head>
 
-  <body class="font-inter">
+<body class="font-inter">
     <!-- header start -->
 
-    <header class="bg-[#F5F7FA]">
-      <div class="container mx-auto w-[1440px]">
-        <nav class="nav flex justify-between h-[84px] items-center">
-          <a href="#"><img src="img/logo.svg" alt="logo" /></a>
+    <header class="bg-[#F5F7FA] h-screen">
+        <div class="container mx-auto w-[1440px]">
+            <nav class="nav flex justify-between h-[84px] items-center">
+                <a href="#"><img src="img/logo.svg" alt="logo" /></a>
 
-          <ul class="list flex gap-x-12 text-[#18191F]">
-            <li class="item hover:text-[#4CAF4F] duration-150 font-medium"><a href="#" class="nav-bar-list">Home</a></li>
-            <li class="item hover:text-[#4CAF4F] duration-150 font-normal"><a href="#" class="nav-bar-list">Service</a></li>
-            <li class="item hover:text-[#4CAF4F] duration-150 font-normal"><a href="#" class="nav-bar-list">Feature</a></li>
-            <li class="item hover:text-[#4CAF4F] duration-150 font-normal"><a href="#" class="nav-bar-list">Product</a></li>
-            <li class="item hover:text-[#4CAF4F] duration-150 font-normal"><a href="#" class="nav-bar-list">Testimonial</a></li>
-            <li class="item hover:text-[#4CAF4F] duration-150"><a href="#" class="nav-bar-list">FAQ</a></li>
-          </ul>
+                <ul class="list flex gap-x-12 text-[#18191F]">
+                    <li class="item hover:text-[#4CAF4F] duration-150 font-medium">
+                        <a href="#" class="nav-bar-list">Home</a>
+                    </li>
+                    <li class="item hover:text-[#4CAF4F] duration-150 font-normal">
+                        <a href="#" class="nav-bar-list">Service</a>
+                    </li>
+                    <li class="item hover:text-[#4CAF4F] duration-150 font-normal">
+                        <a href="#" class="nav-bar-list">Feature</a>
+                    </li>
+                    <li class="item hover:text-[#4CAF4F] duration-150 font-normal">
+                        <a href="#" class="nav-bar-list">Product</a>
+                    </li>
+                    <li class="item hover:text-[#4CAF4F] duration-150 font-normal">
+                        <a href="#" class="nav-bar-list">Testimonial</a>
+                    </li>
+                    <li class="item hover:text-[#4CAF4F] duration-150">
+                        <a href="#" class="nav-bar-list">FAQ</a>
+                    </li>
+                </ul>
 
-          <ul class="auth flex gap-x-8 items-center">
-            <li><button class="btn text-[#4CAF4F] font-medium ">Login</button></li>
-            <li><button class="btn font-medium bg-[#4CAF4F] w-[90px] h-[40px] rounded-md text-white focus:ring-2 ring-green-600">Sign up</button></li>
-          </ul>
-        </nav>
-      </div>
+                <ul class="auth flex gap-x-8 items-center">
+                    <li>
+                        <button class="btn text-[#4CAF4F] font-medium">Login</button>
+                    </li>
+                    <li>
+                        <button
+                            class="btn font-medium bg-[#4CAF4F] w-[90px] h-[40px] rounded-md text-white focus:ring-2 ring-green-600">
+                            Sign up
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="entry m-auto flex justify-between">
+                <div class="heading pt-40">
+                    <h1 class="font-semibold text-[64px] text-[#4D4D4D] leading-[76px] mb-4">
+                        Lessons and insights <br />
+                        <span class="font-semibold text-[64px] text-[#4CAF4F] leading-[76px]">from 8 years</span>
+                    </h1>
+                    <h3 class="font-normal text-base text-[#717171] pb-8">
+                        Where to grow your business as a photographer: site or social
+                        media?
+                        </h4>
+                        <button
+                            class="bg-[#4CAF4F] w-32 h-[52px] rounded text-base text-white font-medium">Register
+                        </button>
+                </div>
+
+                <div class="illustration pt-24">
+                    <img src="img/illustration.svg" alt="" />
+                </div>
+            </section>
+        </div>
     </header>
     <!-- header end -->
 
     <!-- main entry start -->
 
     <main class="bg-[#F5F7FA]">
-        <div class="container m-auto w-[1440px]">
-            <section class="entry">
-                <div class="heading">
-                    <h1>Lessons and insights <span>from 8 years</span></h1>
-                    <h4>Where to grow your business as a photographer: site or social media?</h4>
-                    <button>Register</button>
-                </div>
-            </section>
-        </div>
+        
     </main>
     <!-- main entry end -->
+</body>
 
-
-  </body>
 </html>
