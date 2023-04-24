@@ -243,7 +243,7 @@
                     <img class="w-auto" src="img/pana.svg" alt="photo">
 
                     <div class="w-[580px] h-[270px] flex flex-col justify-center text-start">
-                        <ul class="">
+                        <ul>
                             <li class="font-semibold text-4xl text-[#4D4D4D] pb-4">
                                 How to design your site footer like we did
                             </li>
@@ -375,8 +375,8 @@
     <!-- footer starts -->
     <footer class="bg-[#263238]">
         <div class="container mx-auto w-[1440px] flex justify-center">
-            <div class="flex h-[328px] w-[1110px] items-center">
-                <div class="flex flex-col justify-between h-48">
+            <div class="flex h-[328px] w-[1110px] items-center justify-between">
+                <div class="flex flex-col h-48 justify-between">
                     <img class="w-48" src="img/logo-white.svg" alt="logo">
                     <ul class="font-normal text-sm text-[#F5F7FA]">
                         <li class="pb-2">Copyright © 2020 Nexcent ltd.</li>
@@ -390,37 +390,38 @@
                     </ul>
                 </div>
 
-                <div class="flex">
-                    <div class="flex">
-                        <h3>Company</h3>
-                        <ul>
-                            <li>About us</li>
-                            <li>Blog</li>
-                            <li>Contact us</li>
-                            <li>Pricing</li>
-                            <li>Testimonials</li>
+                <div class="flex w-[635px] justify-between">
+                    <div class="flex flex-col">
+                        <h3 class="font-semibold text-xl text-white pb-6">Company</h3>
+                        <ul class="font-normal text-sm text-[#F5F7FA] flex flex-col cursor-pointer">
+                            <li class="pb-3">About us</li>
+                            <li class="pb-3">Blog</li>
+                            <li class="pb-3">Contact us</li>
+                            <li class="pb-3">Pricing</li>
+                            <li class="pb-3">Testimonials</li>
                         </ul>
                     </div>
 
-                    <div class="flex">
-                        <h3>Support</h3>
-                        <ul>
-                            <li>Help center</li>
-                            <li>Terms of service</li>
-                            <li>Legal</li>
-                            <li>Privacy policy</li>
-                            <li>Status</li>
+                    <div class="flex flex-col">
+                        <h3 class="font-semibold text-xl text-white pb-6">Support</h3>
+                        <ul class="font-normal text-sm text-[#F5F7FA] flex flex-col cursor-pointer">
+                            <li class="pb-3">Help center</li>
+                            <li class="pb-3">Terms of service</li>
+                            <li class="pb-3">Legal</li>
+                            <li class="pb-3">Privacy policy</li>
+                            <li class="pb-3">Status</li>
                         </ul>
+                    </div>
+                    
+                    <div class="flex flex-col">
+                        <h3 class="font-semibold text-xl text-white pb-6">Stay up to date</h3>
+                        <div class="flex">
+                            <input type="text" placeholder="Your email address">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
                     </div>
                 </div>
 
-                <div class="flex">
-                    <h3>Stay up to date</h3>
-                    <div class="flex">
-                        <input type="text" placeholder="Your email address">
-                        <i class="fa-regular fa-paper-plane"></i>
-                    </div>
-                </div>
             </div>
         </div>
     </footer>
